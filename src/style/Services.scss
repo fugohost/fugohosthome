@@ -1,78 +1,8 @@
 .services-container {
   width: 100%;
-  height: 70vh;
-  background: var(--shade-light-background, #F9F9FF);
-
-  > div {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-
-    > h1 {
-      color: var(--gray-gray-900, #1A202C);
-      margin: 10px 0;
-      font-family: Inter;
-      font-size: 40px;
-      font-style: normal;
-      font-weight: 300;
-      line-height: 71px;
-    }
-  }
-
-  .tile-container {
-    width: 100%;
-    background-color: palevioletred;
-    display: flex;  
-    justify-content: space-between;
-    align-items: center;
-    gap: 20px;
-
-    > div {
-      // width: 50%;
-      background-color: white;
-      border-radius: 20px;
-    }
-
-  }
-}
-
-
-// .tile-main-container {
-//   display: flex;
-//   width: 333px;
-//   height: 287px;
-//   justify-content: center;
-//   align-items: center;
-//   flex-shrink: 0;
-//   border-radius: 7px;
-//   background: #FAFAFA;
-//   /* Card-shadow-lite */
-//   box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
-  
-// }
-
-// .tile-image {
-//   width: 50px;
-//   height: 50px;
-//   border: 1px solid rgb(237,168,189);
-//   border-radius: 25px;
-//   align-items: center;
-//   padding: 10px;
-// }
-
-// .tile-image img {
-//   width: 25px;
-//   height: 25px;
-// } 
-
-
-
-.services-container-practice {
-  width: 100%;
   height: 80vh;
   padding: 30px 0;
-  background-color: antiquewhite;
+  background-color: rgb(249,249,255);
   display: flex;
   flex-direction: column;
   align-items: center;

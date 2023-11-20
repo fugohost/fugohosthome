@@ -29,7 +29,7 @@ const tiles = [{
 
 const Services = () => {
   return (
-    <div className="services-container-practice" id="services">
+    <div className="services-container" id="services">
       <h1>Services we offer</h1>
       <div>
         {
@@ -49,23 +49,3 @@ const Services = () => {
 }
 
 export default Services;
-
-
-
-{/* <div>
-        <h1>Services we offer</h1>
-      </div>
-
-      <div>
-      {
-        tiles.map((tile) => (
-          <div className="tile-container">
-            <div>
-                <img src={tile.image} />              
-                <h4>{tile.title}</h4>
-                <p>{tile.text}</p>
-            </div>
-          </div>
-            ))
-      }
-      </div> */}
