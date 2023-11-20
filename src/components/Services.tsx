@@ -1,4 +1,4 @@
-import "../style/Services.css";
+import "../style/Services.scss";
 import image1 from "../images/services-images/Code_perspective_matte.png"
 import image2 from "../images/services-images/Dashboard_perspective_matte.png"
 
@@ -29,31 +29,43 @@ const tiles = [{
 
 const Services = () => {
   return (
-    <div className="Service-container" id="services">
-      <div className="heading">
-        <h2>Services we offer</h2>
-      </div>
-      <div className="tiles-container">
-      {
-        tiles.map((tile) => (
-          <div className="tile-main-container">
+    <div className="services-container-practice" id="services">
+      <h1>Services we offer</h1>
+      <div>
+        {
+          tiles.map((tile) => (
             <div className="tile-container">
-              <div className="tile-image">
-                <img src={tile.image} />
-              </div>
-              <div className="tile-title">
-                <p>{tile.title}</p>
-              </div>
-              <div className="tile-text">
-                <p>{tile.text}</p>
+              <div>
+                  <img src={tile.image} />              
+                  <h4>{tile.title}</h4>
+                  <p>{tile.text}</p>
               </div>
             </div>
-          </div>
-            ))
-      }
+          ))
+        }
       </div>
     </div>
   )
 }
 
 export default Services;
+
+
+
+{/* <div>
+        <h1>Services we offer</h1>
+      </div>
+
+      <div>
+      {
+        tiles.map((tile) => (
+          <div className="tile-container">
+            <div>
+                <img src={tile.image} />              
+                <h4>{tile.title}</h4>
+                <p>{tile.text}</p>
+            </div>
+          </div>
+            ))
+      }
+      </div> */}
