@@ -1,6 +1,6 @@
 .services-container {
   width: 100%;
-  height: 80vh;
+  height: 210vh;
   padding: 30px 0;
   background-color: rgb(249,249,255);
   display: flex;
@@ -14,25 +14,27 @@
     font-family: Inter;
     font-size: 40px;
     font-style: normal;
-    font-weight: 300;
-    line-height: 71px;
+    font-weight: 700;
+    line-height: 55px;
   }
 
   > div {
-    width: 95%;
+    width: 90%;
     display: flex;
     flex-direction: row;
+    justify-content: flex-start;
+    flex-wrap: wrap;
     align-items: center;
-    column-gap: 30px;
+    gap: 40px;
 
     .tile-container {
       background-color: white;
       border-radius: 20px;
-      width: 25%;
-      height: 50vh;
+      width: 400px;
+      height: 60vh;
 
       &:hover {
-          transform: translate3D(0,-1px,0) scale(1.02);
+          transform: translate3D(0,-1px,0) scale(1.05);
       }
 
       > div {
