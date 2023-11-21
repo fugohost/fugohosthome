@@ -1,6 +1,6 @@
 .web-development {
   width: 100%;
-  height: 80vh;
+  height: 90vh;
   background-color: white;
   z-index: 0;
   // margin-top: 80px;
@@ -68,27 +68,33 @@
 
 .web-design {
   width: 100%;
-  height: 200vh;
+  height: 190vh;
   display: flex;
   flex-direction: column;
   align-items: center;
-  row-gap: 20px;
+  row-gap: 40px;
   
   > div {
-    border-radius: 0px 30px 30px 0px;
+    border-radius: 10px 30px 30px 10px;
     border: 1px solid var(--shade-primary-lite-bg, #E7DAED);
     background: #F1F2FF;
     width: 80%;
     display: flex;
     flex-direction: row;
+    justify-content: center;
     align-items: center;
 
     > div {
       width: 50%;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
 
       > img {
         width: 100%;
-        height: auto;
+        height: 100%;
+  
       }
       > h3 {
         color: var(--gray-gray-800, #2D3748);
@@ -106,7 +112,7 @@
         font-feature-settings: 'salt' on;
         /* Paragraphs/default */
         font-family: Inter;
-        font-size: 14px;
+        font-size: 17px;
         font-style: normal;
         font-weight: 400;
         line-height: 162.023%;

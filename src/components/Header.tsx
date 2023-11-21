@@ -1,6 +1,6 @@
 import { HashLink } from "react-router-hash-link";
-import "../style/Header.scss";
 import logo from "../images/onlyLogo.png";
+import "../style/Header.scss";
 
 const Header = () => {
   return (
