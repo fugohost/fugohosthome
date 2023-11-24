@@ -4,6 +4,7 @@ import Header from './components/Header';
 import Development from './components/Development';
 import Hosting from "./components/Hosting";
 import Services from './components/Services';
+import About from './components/About';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
        <Development />
        <Hosting />
        <Services />
+       <About />
     </Router>
   );
 }
