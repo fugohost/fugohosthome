@@ -60,6 +60,10 @@
       font-weight: 500;
       border: none;
       padding: 8px 18px;
+
+      &:hover {
+        cursor: pointer;
+      }
     }
   }
 }
