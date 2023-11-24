@@ -1,0 +1,33 @@
+.about-container {
+  width: 100%;
+  background-color: rgb(250, 245, 245);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  
+  > div {
+    width: 90%;
+
+    > h4 {
+      color: var(--gray-gray-800, #2D3748);
+      /* Headings/Headings-h4 */
+      font-family: Inter;
+      font-size: 24px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 25px;
+      margin: 5px 0; 
+    }
+
+    > p {
+      color: var(--gray-gray-600, #718096);
+      font-feature-settings: 'salt' on;
+      font-family: Inter;
+      font-size: 17px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 25px;
+    }
+  }
+}
