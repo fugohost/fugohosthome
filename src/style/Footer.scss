@@ -1,0 +1,49 @@
+.footer-container {
+  width: 100%;
+  height: 30vh;
+  background-color: white;
+  border-top: 20px solid #f95959;
+
+  > div {
+    display: flex;
+    flex-direction: row;
+    column-gap: 100px;
+    margin: 30px 20px;
+
+    > div {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+
+      > h4 {
+        color: var(--gray-gray-800, #2D3748);
+        /* Headings/Headings-h4 */
+        font-family: Inter;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 25px;
+        margin: 5px 0;
+      }
+      > a {
+        color: rgb(128,128,128);
+        text-decoration: none;
+        font-size: 19px;
+        font-weight: 300;
+
+      &:hover {
+        color: rgb(249,88,89);
+        }
+      }
+
+      .link {
+        color: #0d6efd;
+      }
+
+      > address {
+        line-height: 25px;
+        font-size: 18px;
+      }
+    }
+  }
+}
