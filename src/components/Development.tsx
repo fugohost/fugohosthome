@@ -21,7 +21,7 @@ const Development = () => {
           </div>
         </div>
 
-        <div>
+        <div className="dev-image">
           <img src={image} alt="image not available" />
         </div>
       </div>

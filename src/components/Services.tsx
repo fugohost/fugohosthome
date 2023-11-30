@@ -52,7 +52,7 @@ const Services = () => {
       <div>
         {
           tiles.map((tile) => (
-            <div className="tile-container">
+            <div className="tile-container" key={tile.id}>
               <div>
                   <img src={tile.image} />              
                   <h4>{tile.title}</h4>
