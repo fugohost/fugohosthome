@@ -6,6 +6,7 @@ import Hosting from "./components/Hosting";
 import Services from './components/Services';
 import About from './components/About';
 import Footer from './components/Footer';
+import './style/MediaQuery.scss';
 
 function App() {
   return (
