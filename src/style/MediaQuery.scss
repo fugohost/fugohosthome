@@ -12,6 +12,7 @@
     justify-content: space-around;
     
     .menu {
+      display: inline;
       position: absolute;
       left: 20px;
       > button {
@@ -38,7 +39,7 @@
       top: 80px;
       background-color: #FFF;
       width: 100%;
-      height: 300px;
+      height: auto;
       padding: 20px 0;
       border-bottom: 1px solid gray;
   
@@ -74,15 +75,11 @@
     height: auto;
 
     > div {
-      width: 85%;
+      width: 100%;
     }
   }
   .dev-image {
-    width: 60%;
-    > img {
-      filter: blur(3px);
-      z-index: -1;
-    }
+    display: none;
   }
   
   .web-design {
@@ -112,6 +109,58 @@
         height: auto;
         width: 90%;
       }
+    }
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .header {
+    .left {
+      > a {
+        > img {
+          height: 30px;
+        }
+        > h1 {
+          font-size: 22px;
+          
+        }
+      }
+      > h1 {
+        font-size: 10px;
+        color: black;
+      }
+    }
+  }
+  .web-development {
+    > div {
+      width: 100%;
+      > div {
+        padding-left: 30px;
+      }
+    }
+  }
+
+  .dev-image {
+    display: none;
+  }
+
+  .services-container {
+    padding-left: 0;
+    > div {
+      width: 98%;
+      .tile-container {
+        > div {
+          padding: 20px;
+        }
+      }
+    }
+    
+  }
+
+  .footer-container {
+    > div {
+      flex-direction: column;
+      gap: 30px;
     }
   }
 }

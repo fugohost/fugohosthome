@@ -17,7 +17,7 @@ const Development = () => {
               We help build and manage a team of world-class developers to bring
               your vision to life.
             </p>
-            <button>Let's get started!</button>
+            <a type="button" href="https://calendly.com/fugohost/30min?month=2023-11" target="_blank" rel="noreferrer">Let's get started!</a>
           </div>
         </div>
 
