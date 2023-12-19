@@ -1,4 +1,5 @@
 import "../style/Hosting.scss";
+import { Link } from "react-router-dom";
 
 const Hosting = () => {
   return (
@@ -6,17 +7,17 @@ const Hosting = () => {
       <h1>Web Hosting</h1>
       <div>
         <p>
-        In the vast ecosystem of the internet, web hosting is the foundation
-        upon which websites thrive. Choosing the right hosting service is
-        crucial for the performance, security, and scalability of your online
-        presence. Selecting the right web hosting service is a crucial decision
-        that directly impacts the success of your online venture. Consider
-        factors such as budget, technical expertise, and the specific
-        requirements of your website or application. Whether you opt for shared
-        hosting, VPS, dedicated servers, cloud hosting, managed WordPress
-        hosting, or reseller hosting, understanding the nuances of each type
-        will empower you to make an informed choice and ensure a robust
-        foundation for your online presence.
+          In the vast ecosystem of the internet, web hosting is the foundation
+          upon which websites thrive. Choosing the right hosting service is
+          crucial for the performance, security, and scalability of your online
+          presence. Selecting the right web hosting service is a crucial
+          decision that directly impacts the success of your online venture.
+          Consider factors such as budget, technical expertise, and the specific
+          requirements of your website or application. Whether you opt for
+          shared hosting, VPS, dedicated servers, cloud hosting, managed
+          WordPress hosting, or reseller hosting, understanding the nuances of
+          each type will empower you to make an informed choice and ensure a
+          robust foundation for your online presence.
         </p>
       </div>
 
@@ -25,11 +26,11 @@ const Hosting = () => {
           <h2>Shared Hosting</h2>
           <p>
             Experience the perfect launchpad for your online success with our
-            Shared Hosting solution. Affordable, reliable, and user-friendly, it's
-            the ideal starting point for individuals and businesses alike. Enjoy
-            the benefits of a secure and fully managed hosting environment without
-            breaking the bank. Seamlessly scale your online presence as you grow,
-            backed by our expert support.
+            Shared Hosting solution. Affordable, reliable, and user-friendly,
+            it's the ideal starting point for individuals and businesses alike.
+            Enjoy the benefits of a secure and fully managed hosting environment
+            without breaking the bank. Seamlessly scale your online presence as
+            you grow, backed by our expert support.
           </p>
         </div>
 
@@ -59,9 +60,14 @@ const Hosting = () => {
       </div>
 
       <div className="hosting-button">
-        <button>
+        <a
+          type="button"
+          href="https://calendly.com/fugohost/30min"
+          target="_blank"
+          rel="noreferrer"
+        >
           Let's Discuss
-        </button>
+        </a>
       </div>
     </div>
   );

@@ -16,9 +16,8 @@
       gap: 10px;
 
       > h4 {
-        color: var(--gray-gray-800, #2D3748);
+        color: var(--gray-gray-800, #2d3748);
         /* Headings/Headings-h4 */
-        font-family: Inter;
         font-size: 20px;
         font-style: normal;
         font-weight: 500;
@@ -26,13 +25,13 @@
         margin: 5px 0;
       }
       > a {
-        color: rgb(128,128,128);
+        color: rgb(128, 128, 128);
         text-decoration: none;
         font-size: 19px;
         font-weight: 300;
 
-      &:hover {
-        color: rgb(249,88,89);
+        &:hover {
+          color: rgb(249, 88, 89);
         }
       }
 
