@@ -1,5 +1,5 @@
 import "../style/Development.scss";
-import image from "../images/Hero-Wrapper__image.png";
+import image from "../images/fugohost-background.png";
 import image1 from "../images/web-design/Case-study__image_1.png";
 import image2 from "../images/web-design/Case-study__image_2.png";
 import image3 from "../images/web-design/Case-study__image_3.png";
@@ -10,12 +10,13 @@ const Development = () => {
       <div className="web-development" id="development">
         <div>
           <div>
-            <h1>
-              Great <span>Product</span> is built by great <span>teams</span>
-            </h1>
+            <h1>Great Product is built by great teams</h1>
             <p>
               We help build and manage a team of world-class developers to bring
-              your vision to life.
+              your vision to life. Our company culture is rooted in the
+              understanding that the collective efforts of a talented and
+              cohesive team are essential for the development of exceptional
+              products and services.
             </p>
             <a
               type="button"
